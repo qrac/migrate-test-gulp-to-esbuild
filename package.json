@@ -1,0 +1,12 @@
+{
+  "name": "migrate-test-gulp-to-esbuild",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.assets.js",
+    "watch": "node build.assets.js -w"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.1"
+  }
+}

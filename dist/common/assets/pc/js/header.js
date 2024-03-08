@@ -1,0 +1,1 @@
+(()=>{var t=new AbortController,n=document.getElementById("outside");n.addEventListener("click",o,{signal:t.signal});function o(){let e=document.getElementById("t2");e.firstChild.nodeValue==="three"?e.firstChild.nodeValue="two":(e.firstChild.nodeValue="three",t.abort())}})();

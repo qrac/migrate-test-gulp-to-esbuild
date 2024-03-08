@@ -1,0 +1,1 @@
+(()=>{function o(){let e=document.getElementById("t2"),t=e.firstChild.nodeValue==="three";e.firstChild.nodeValue=t?"two":"three"}var n=document.getElementById("outside");n.addEventListener("click",o,!1);console.log("test test");})();
